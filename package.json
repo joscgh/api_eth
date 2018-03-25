@@ -1,0 +1,39 @@
+{
+  "name": "rest-crud",
+  "description": "API CURL CryptoDev API Ethereum",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "1.9.0",
+    "ejs": "^1.0.0",
+    "eth-lib": "^0.2.3",
+    "express": "4.9.5",
+    "express-myconnection": "*",
+    "express-validator": "^2.6.0",
+    "lerna": "^2.9.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.0.11",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.12.1",
+    "v5": "^0.1.2",
+    "v6": "0.0.0",
+    "v7": "^1.0.1",
+    "web3": "^0.20.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptodevoficial/cryptodev-ethereum-dev.git"
+  },
+  "author": "CryptoDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryptodevoficial/cryptodev-ethereum-dev/issues"
+  },
+  "homepage": "https://github.com/cryptodevoficial/cryptodev-ethereum-dev#readme"
+}
